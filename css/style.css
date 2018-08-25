@@ -1,0 +1,22 @@
+#left-side {
+    background-color: whitesmoke;
+    height: 548px;
+}
+
+#right-side {
+    height: 548px;
+    overflow: auto;
+}
+
+#sub-folder-1 {
+    display: none;
+}
+
+#down_angle-1 {
+    display: none;
+}
+
+#folder_logo {
+    font-size: 22px;
+    color: rgb(240, 159, 10);
+}

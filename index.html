@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.css" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Sumo Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <h1 class="mt-3 p-3"><i class="fas fa-plus-square text-primary"></i>&nbsp; sumo<b class="text-primary">logic</b></h1>
+            </div>
+
+        </div>
+        <div class="row border border-dark">
+            <div class="col-3 border-right border-dark" id="left-side">
+                <ul class="nav flex-column float-left">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" id="folder-1" href="#"><i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; Counter Strike:Global Offensive</a>
+                        <ul class="nav flex-column mx-4" id="sub-folder-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"><i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; Game Play Resources 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#"> <i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; Game Play Resources 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"> <i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; Tekken Taq Tournament 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; Guild Wars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"> <i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; God of War</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="fas fa-angle-down" id="down_angle-1"></i><i class="fas fa-chevron-right" id="right_angle-1"></i>&nbsp; <i class="fa fa-folder-open" id="folder_logo"></i>&nbsp; Call of Duty:Black Ops</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9" id="right-side">
+                Show detailsYou have to implement the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update name and delete folders and files. -- You should implement drag & drop of files between folders. -- You should
+                save both the long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long
+                JSON. -- You don’t have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File)
+                Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder) profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3
+                Tech Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update
+                name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should
+                happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should
+                be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder)
+                profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement
+                the file browser project structure provided in the JSONs. - - Your Web app should allow users to create, update name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the
+                long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t
+                have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder)
+                Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder) profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech
+                Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update
+                name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should
+                happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should
+                be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder)
+                profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement
+                the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the
+                long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t
+                have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder)
+                Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder) profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech
+                Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update
+                name and delete folders and files. -- You should implement drag & drop of files between folders. -- You should save both the long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should happen
+                and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should be:
+                Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder)
+                profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement
+                the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the
+                long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t
+                have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder)
+                Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder) profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech
+                Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement the file browser project structure provided in the JSONs. - - Your Web app should allow users to create, update
+                name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should
+                happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should
+                be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder)
+                profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement
+                the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the
+                long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t
+                have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder)
+                Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder) profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech
+                Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference] Show detailsYou have to implement the file browser project structure provided in the JSONs. -- Your Web app should allow users to create, update
+                name and delete folders and files. - - You should implement drag & drop of files between folders. -- You should save both the long and short JSON in local storage, and load them on demand. -- All CRUD operations mentioned above should
+                happen and update the short JSON in local storage. -- All infinite scroll etc should be implemented on the long JSON. -- You don’t have to implement a File/Text editor in your app. File name with an icon would be enough. -- Structure should
+                be: Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Game Title(Folder) Game Play Resources(Folder) Installation(Folder) install.iso(File) archive_unbox.dat(File) Resource Dependency(Folder)
+                profile.sav(File) snd0.AT3(File) [Guide] -- Long JSON: http://hck.re/jimM8z -- Short JSON: http://hck.re/yNa9a3 Tech Stack: -- HTML, CSS, Vanilla Javascript -- Angular/React (Optional) [Wireframe reference]
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
